@@ -249,15 +249,8 @@
             </li>
 
             <li>
-                <a href="javascript: void(0);" class="has-arrow waves-effect"><i
-                        class="mdi mdi-poll"></i><span>Charts</span></a>
-                <ul class="sub-menu" aria-expanded="false">
-                    <li><a href="charts-morris.html">Morris</a></li>
-                    <li><a href="charts-google.html">Google</a></li>
-                    <li><a href="charts-chartjs.html">Chartjs</a></li>
-                    <li><a href="charts-sparkline.html">Sparkline</a></li>
-                    <li><a href="charts-knob.html">Jquery Knob</a></li>
-                </ul>
+                <a href="sobreNosotros.php" class="has-arrow waves-effect"><i
+                        class="mdi mdi-poll"></i><span>sobre nosotros</span></a>
             </li>
 
             <li>
