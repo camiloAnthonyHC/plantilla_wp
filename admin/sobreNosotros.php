@@ -34,6 +34,7 @@
 
             <div class="page-content">
                 <div class="container-fluid">
+                    <br><br>
 <div class="row">
     <div class="col-md-6">
         <img src="https://www.dilitrust.com/wp-content/uploads/benefits_second_480.jpg" alt="" width="100%">
@@ -44,6 +45,10 @@
         </p>
     </div>
 </div>
+<h2>OFRECEMOS</h2>
+<P> vive la nueva experiencia de realizar compras por internet en el Mall online de las mejores marcas y retailers. Aquí encontrarás tiendas con productos sobre audífonos, belleza, gaming, celulares, colchones, computadoras, cuidado corporal, perfumes, deportes, electrodomésticos, hogar,
+
+instrumentos musicales, aire libre y jardín, joyería, juguetería, lentes, libros, moda hombre, moda mujer, motos y accesorios, moda infantil, relojes, salud y bienestar, supermercado, tablets, TV, útiles escolares, consolas y videojuegos, licores, vitaminas y suplementos, parrillas, cajas chinas y mucho más.</P>
 
                 </div> <!-- container-fluid -->
             </div>
