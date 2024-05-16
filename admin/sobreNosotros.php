@@ -36,11 +36,11 @@
                 <div class="container-fluid">
 <div class="row">
     <div class="col-md-6">
-        <img src="https://www.dilitrust.com/wp-content/uploads/benefits_second_480.jpg" alt="" width="90%">
+        <img src="https://www.dilitrust.com/wp-content/uploads/benefits_second_480.jpg" alt="" width="100%">
     </div>
     <div class="col-md-6">
         <h2>sobre nosotros</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam excepturi maxime totam quis possimus in, rerum iste dolore. Sunt fugiat corrupti placeat, excepturi incidunt molestiae architecto assumenda iure. Voluptates nulla veniam voluptatibus libero amet molestias mollitia, ea, esse tenetur soluta molestiae, dolore ducimus quae quos perspiciatis deserunt illo laudantium alias? Facilis molestias sit unde optio tempore obcaecati ex non, dolore debitis praesentium repudiandae veritatis laboriosam tempora, corporis delectus modi in minima veniam. Error nulla quos vero quidem debitis, expedita dicta laborum est, officiis reprehenderit totam dignissimos laboriosam nobis corporis quis temporibus repudiandae architecto quibusdam molestias blanditiis numquam dolorum! Earum, modi.
+        <p>es una nueva plataforma online enfocada en reunir marcas y tiendas, bajo el concepto de un Marketplace para todos. Agrupamos en un solo sitio a tus tiendas y marcas favoritas, cada una bajo el formato de Shop-in-Shop (tienda propia con su buscador propio) dentro de nuestra plataforma online. De este modo, acercamos las marcas más importantes a nuestros clientes en un canal complementario y adicional de ventas por internet.
         </p>
     </div>
 </div>
