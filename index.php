@@ -24,7 +24,7 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
             <div class="header-border"></div>
-
+            <?php echo bloginfo('templete_url');?>
             <?php include ("include/menu.php") ?>
 
 
