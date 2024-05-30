@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url');?>/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -24,7 +24,7 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
             <div class="header-border"></div>
-            <?php echo bloginfo('templete_url');?>
+            <?php echo bloginfo('template_url');?>
             <?php include ("include/menu.php") ?>
 
 
@@ -67,7 +67,7 @@
                                     <div id="carouselExampleCaption" class="carousel slide" data-ride="carousel">
                                         <div class="carousel-inner" role="listbox">
                                             <div class="carousel-item active">
-                                                <img src="assets/images/media/sm-3.jpg" alt="..."
+                                                <img src="<?php bloginfo('template_url');?>/assets/images/media/sm-3.jpg" alt="..."
                                                     class="d-block img-fluid" width="100%">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">First slide label</h3>
@@ -75,7 +75,7 @@
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/media/sm-4.jpg" alt="..."
+                                                <img src="<?php bloginfo('template_url');?>/assets/images/media/sm-4.jpg" alt="..."
                                                     class="d-block img-fluid" width="100%">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">Second slide label</h3>
@@ -83,7 +83,7 @@
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
-                                                <img src="assets/images/media/sm-5.jpg" alt="..."
+                                                <img src="<?php bloginfo('template_url');?>/assets/images/media/sm-5.jpg" alt="..."
                                                     class="d-block img-fluid"width="100%">
                                                 <div class="carousel-caption d-none d-md-block">
                                                     <h3 class="text-white">Third slide label</h3>
@@ -123,14 +123,14 @@
 
 
         <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/metismenu.min.js"></script>
-        <script src="assets/js/waves.js"></script>
-        <script src="assets/js/simplebar.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/metismenu.min.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/waves.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/theme.js"></script>
+        <script src="<?php bloginfo('template_url');?>/assets/js/theme.js"></script>
 
     </body>
 
