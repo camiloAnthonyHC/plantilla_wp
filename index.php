@@ -59,7 +59,7 @@
                                                                     the_post_thumbnail('thumbnail', array( 'class' => 'card-img-top img-fluid' ));
                                                                 }
                                                             ?></a>
-                                                <img class="card-img-top img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/0/05/Pump_bringback_weiss.jpg" alt="">
+                                                <img class="card-img-top img-fluid" src="" alt="">
                                                 <div class="card-body">
                                                     <h5 class="card-title"><?php the_title();?></h5>
                                                     <p class="card-text"><?php the_excerpt();?>
