@@ -14,30 +14,37 @@
                                            
                                     ?>
                 <div class="row">
-                  <div class="col-6 card">
+                  <div class="col-6 card" >
                   <?php 
                                          if ( has_post_thumbnail() ) {
-                                            the_post_thumbnail('thumbnail', array( 'class' => 'card-img-top img-fluid' ));
+                                            the_post_thumbnail('full', array( 'class' => 'img-fluid w-100 h-100' ));
                                              }
                                             ?>
                   </div>
                   <div class="col-6 card">
-                  <div class="card col-12" style="width: 18rem;">
+                  <div class="card col-12" style="width: 80%;">
                     <div class="card-body">
                       <h5 class="card-title"><?php the_title();?></h5>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><?php the_excerpt();?></li>
-                      </ul>
+                        <li class="list-group-item"><?php the_content();?></li>
+                        <h4 style="color: red"><?php the_excerpt();?></h4>
+                      
+                      <br>
                       <div class="row">
                           <button class="btn btn-danger mr-2" onclick="agregar_cantidad('resta');" >-</button>
                           <input type="number" value="1" class="form-control col-3" id="cantidad">
                           <button class="btn btn-success ml-2"  onclick="agregar_cantidad('suma');">+</button>
                     </div>
-                    <i class="fas fa-user"></i> <?php the_author();?> | <i class="fas fa-clock"></i> <?php the_date(); ?>
-                      <div class="card-body">
-                        <button type="button" class="btn btn-outline-success">Success</button>
+                 
+                    <div class="card-body">
+                        <button type="button" class="btn btn-outline-success">comprar</button>
                       </div>
+                      <br>
+                    
+                     
                     </div>
+                    <p>Categoria: <?php the_category( ' ' ); ?></p>
+                   <p>  Por: <?php the_author(); ?> | <?php the_date(); ?></p>
                   </div>
                 </div>
                 <?php endwhile;
