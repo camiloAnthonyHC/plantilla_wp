@@ -50,11 +50,12 @@
                                     <?php 
                                     if ( have_posts() ):
                                         while ( have_posts() ) : the_post();
-                                            the_content();
+                                           
                                     ?>
                                         <div class="col-lg-2 col-md-3 col-sm-6">
                                             <div class="card">
-                                                <a href=""><?php 
+                                                <a href="<?php the_permalink(); ?>">
+                                                <?php 
                                                                 if ( has_post_thumbnail() ) {
                                                                     the_post_thumbnail('thumbnail', array( 'class' => 'card-img-top img-fluid' ));
                                                                 }
